@@ -59,8 +59,8 @@
       left:0; top:0; right:0; bottom:0;
       opacity: 0;
       transition: opacity 0;
-      width: 100%;
-      height: 100%;
+      width: 1920px;
+      height: 1080px;
       border: 0 transparent;
     }
     iframe.show{
@@ -128,7 +128,7 @@
         }
 
         function loadFrame(url, reload_time) {
-          setStatus("Loading: " + url);
+          setStatus("Awesome Loading: " + url);
           window.reload_time = reload_time;
           candidate.src="error.html?dashcast_is_error_page_zz";
           candidate.setAttribute("target-src", url);
